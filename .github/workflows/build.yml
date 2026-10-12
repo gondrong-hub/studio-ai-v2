@@ -20,6 +20,9 @@ jobs:
         with:
           flutter-version: '3.19.x'
 
+      - name: Generate Android Project
+        run: flutter create . --platforms=android
+
       - run: flutter pub get
       - run: flutter build apk --release
 
