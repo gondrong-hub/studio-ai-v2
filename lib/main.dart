@@ -27,7 +27,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final String _apiKey = 'AQ.Ab8RN6IxzojsXXxCh84QE7-cgt4NiowZSVueFrAtz7HDRPzxBA';
+  final String _apiKey = 'AQ.Ab8RN6J5s0APHw1VYJYVw7ixAgRuPGuEyLDBPBAUTFFzsqhQ6g';
 
   final TextEditingController _topicController = TextEditingController();
   final TextEditingController _platformController = TextEditingController();
